@@ -1,0 +1,30 @@
+/* Write your CSS code here. */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+}
+
+.emoji-pattern {
+  display: flex;
+  flex-direction: row;
+}
+
+.heart-img {
+  height: 90px;
+  width: 100px;
+}
+
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  background-color: white;
+  padding: 25px;
+}
